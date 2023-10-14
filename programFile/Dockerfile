@@ -1,10 +1,10 @@
 # Base image
-FROM python:3.8
+FROM ubuntu
 
 # Set the working directory inside the container
-WORKDIR /python
+WORKDIR C:\Users\Nilesh satote\Desktop\CI-CD\programFile
 
-COPY ./python
+# COPY python.py
 
 RUN apt-get update && apt-get install -y python3 python3-pip
 
